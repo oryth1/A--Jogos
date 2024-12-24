@@ -1,0 +1,78 @@
+
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+-- Configuração da interface
+local Window = Rayfield:CreateWindow({
+    Name = "Oryh Hub | Universal BR | Versão 1.0", 
+    LoadingTitle = "Carregando Oryh Hub",
+    LoadingSubtitle = "Por favor, aguarde...",
+    ConfigurationSaving = {
+        Enabled = true,
+        FolderName = "OryhHubConfigs", -- Pasta para salvar configurações
+        FileName = "UniversalScript"
+    },
+    Discord = {
+        Enabled = false,
+        Invite = "", -- Adicione um convite do Discord se necessário
+        RememberJoins = true
+    },
+    KeySystem = false -- Sistema de chave desativado
+})
+
+-- Função para criar botões que executam scripts
+local function AddScriptButton(tab, name, url)
+    tab:CreateButton({
+        Name = name,
+        Callback = function()
+            loadstring(game:HttpGet(url))()
+            Rayfield:Notify({
+                Title = "Oryh Hub",
+                Content = name .. " carregado com sucesso!",
+                Duration = 5
+            })
+        end
+    })
+end
+
+-- >[Início]<
+
+local InicioTab = Window:CreateTab("Início")
+
+AddScriptButton(InicioTab, "</> Aimbot Universal", "https://raw.githubusercontent.com/Yousuck780/troll-x/main/ahhhh")
+AddScriptButton(InicioTab, "</> Gráficos Realistas", "https://raw.githubusercontent.com/Flybobbb/robloxscripts/main/rtx.lua")
+AddScriptButton(InicioTab, "</> Infinite Yield", "https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source")
+AddScriptButton(InicioTab, "</> Remover Texturas", "https://rawscripts.net/raw/Universal-Script-antilag-15462")
+AddScriptButton(InicioTab, "</> Servidor Privado", "https://pastebin.com/raw/A4r1pHJY")
+AddScriptButton(InicioTab, "</> TP Tools", "https://pastebin.com/raw/7pQFmXUv")
+
+-- >[Blox Fruits]<
+
+local BloxFruits = Window:CreateTab("Blox Fruits")
+
+AddScriptButton(BloxFruits, "Alchemy Hub", "https://scripts.alchemyhub.xyz")
+AddScriptButton(BloxFruits, "Speed X Hub", "https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua")
+AddScriptButton(BloxFruits, "Kncryptc Hub", "https://raw.githubusercontent.com/3345-catsus/Kncrypt/refs/heads/main/sources/BloxFruit.lua")
+AddScriptButton(BloxFruits, "HOHO Hub", "https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI")
+AddScriptButton(BloxFruits, "Thunder Z Hub", "https://raw.githubusercontent.com/ThundarZ/Welcome/refs/heads/main/Main/Loader/AllGame.lua")
+AddScriptButton(BloxFruits, "Redz Hub", "https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua")
+AddScriptButton(BloxFruits, "Xero Hub", "https://apixerohub.x10.mx/main.luarmor")
+AddScriptButton(BloxFruits, "Raito Hub", "https://raw.githubusercontent.com/Efe0626/RaitoHub/refs/heads/main/Script")
+AddScriptButton(BloxFruits, "Banana Hub", "https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua")
+
+-- >[Blue Lock Rivals]<
+local BlueLockRivals = Window:CreateTab("Blue Lock Rivals") 
+
+AddScriptButton(BlueLockRivals, "Legend HandlesYT Hub", "https://raw.githubusercontent.com/LOLking123456/Lock/refs/heads/main/Blue")
+AddScriptButton(BlueLockRivals, "NS Hub", "https://raw.githubusercontent.com/OhhMyGehlee/fo/refs/heads/main/ot")
+AddScriptButton(BlueLockRivals, "Tora Isme Hub", "https://raw.githubusercontent.com/ToraScript/Script/main/BlueLock")
+AddScriptButton(BlueLockRivals, "Hub Sendox", "https://api.luarmor.net/files/v3/loaders/2f4e30b1511c2c07bee1be782460a57a.lua")
+AddScriptButton(BlueLockRivals, "Flow Hub", "https://pastebin.com/raw/D1M2PLua")
+AddScriptButton(BlueLockRivals, "Arraste-me Hub", "https://gist.githubusercontent.com/Yopapa7/8f9c43ed1a16ba4dbb5464e169154e65/raw/bdc9d6f650c829f470b6c4c05e66fbc5f7efc92e/gistfile1.txt")
+AddScriptButton(BlueLockRivals, "Rinns Hub", "https://raw.githubusercontent.com/SkibidiCen/MainMenu/main/Code")
+
+-- Mensagem inicial
+Rayfield:Notify({
+    Title = "Oryh Hub",
+    Content = "Carregando os scripts...",
+    Duration = 7
+})
