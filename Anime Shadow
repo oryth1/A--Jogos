@@ -1,10 +1,9 @@
-
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 -- Configuração da interface
 local Window = Rayfield:CreateWindow({
-    Name = "Oryh Hub | Universal BR | Versão 1.0", 
-    LoadingTitle = "Carregando Oryh Hub",
+    Name = "Oryh Hub | Universal BR | Anime Shadow", 
+    LoadingTitle = "Carregando Anime Shadow",
     LoadingSubtitle = "Por favor, aguarde...",
     ConfigurationSaving = {
         Enabled = true,
@@ -38,41 +37,21 @@ end
 
 local InicioTab = Window:CreateTab("Início")
 
-AddScriptButton(InicioTab, "</> Aimbot Universal", "https://raw.githubusercontent.com/Yousuck780/troll-x/main/ahhhh")
-AddScriptButton(InicioTab, "</> Gráficos Realistas", "https://raw.githubusercontent.com/Flybobbb/robloxscripts/main/rtx.lua")
-AddScriptButton(InicioTab, "</> Infinite Yield", "https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source")
-AddScriptButton(InicioTab, "</> Remover Texturas", "https://rawscripts.net/raw/Universal-Script-antilag-15462")
-AddScriptButton(InicioTab, "</> Servidor Privado", "https://pastebin.com/raw/A4r1pHJY")
-AddScriptButton(InicioTab, "</> TP Tools", "https://pastebin.com/raw/7pQFmXUv")
+AddScriptButton(InicioTab, "Deng Hub", "https://raw.githubusercontent.com/DENGHUB2025/HUGHUB/main/WL")
+AddScriptButton(InicioTab, "NomeName Hub", "https://noname-hub.fun/loader.lua")
+AddScriptButton(InicioTab, "NS Hub", "https://raw.githubusercontent.com/HenSeu87PofghYT/Blades-of-Chance/main/Nameless%20Scripts")
+AddScriptButton(InicioTab, "Tora Isme Hub", "https://raw.githubusercontent.com/ToraScript/Script/main/AnimeShadow")
+AddScriptButton(InicioTab, "Whoisgrace0 Hub", "https://raw.githubusercontent.com/Whoisgrace0/Main/main/LOL.lua")
+AddScriptButton(InicioTab, "Abstract Hub", "https://raw.githubusercontent.com/AbstractHub/ScriptHub/refs/heads/Loader/AutoFish")
+AddScriptButton(InicioTab, "Fazium Hub", "https://raw.githubusercontent.com/ZaRdoOx/Fazium-files/main/Loader")
+AddScriptButton(InicioTab, "OMG Hub", "https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua")
 
--- >[Blox Fruits]<
 
-local BloxFruits = Window:CreateTab("Blox Fruits")
 
-AddScriptButton(BloxFruits, "Alchemy Hub", "https://scripts.alchemyhub.xyz")
-AddScriptButton(BloxFruits, "Speed X Hub", "https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua")
-AddScriptButton(BloxFruits, "Kncryptc Hub", "https://raw.githubusercontent.com/3345-catsus/Kncrypt/refs/heads/main/sources/BloxFruit.lua")
-AddScriptButton(BloxFruits, "HOHO Hub", "https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI")
-AddScriptButton(BloxFruits, "Thunder Z Hub", "https://raw.githubusercontent.com/ThundarZ/Welcome/refs/heads/main/Main/Loader/AllGame.lua")
-AddScriptButton(BloxFruits, "Redz Hub", "https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua")
-AddScriptButton(BloxFruits, "Xero Hub", "https://apixerohub.x10.mx/main.luarmor")
-AddScriptButton(BloxFruits, "Raito Hub", "https://raw.githubusercontent.com/Efe0626/RaitoHub/refs/heads/main/Script")
-AddScriptButton(BloxFruits, "Banana Hub", "https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua")
-
--- >[Blue Lock Rivals]<
-local BlueLockRivals = Window:CreateTab("Blue Lock Rivals") 
-
-AddScriptButton(BlueLockRivals, "Legend HandlesYT Hub", "https://raw.githubusercontent.com/LOLking123456/Lock/refs/heads/main/Blue")
-AddScriptButton(BlueLockRivals, "NS Hub", "https://raw.githubusercontent.com/OhhMyGehlee/fo/refs/heads/main/ot")
-AddScriptButton(BlueLockRivals, "Tora Isme Hub", "https://raw.githubusercontent.com/ToraScript/Script/main/BlueLock")
-AddScriptButton(BlueLockRivals, "Hub Sendox", "https://api.luarmor.net/files/v3/loaders/2f4e30b1511c2c07bee1be782460a57a.lua")
-AddScriptButton(BlueLockRivals, "Flow Hub", "https://pastebin.com/raw/D1M2PLua")
-AddScriptButton(BlueLockRivals, "Arraste-me Hub", "https://gist.githubusercontent.com/Yopapa7/8f9c43ed1a16ba4dbb5464e169154e65/raw/bdc9d6f650c829f470b6c4c05e66fbc5f7efc92e/gistfile1.txt")
-AddScriptButton(BlueLockRivals, "Rinns Hub", "https://raw.githubusercontent.com/SkibidiCen/MainMenu/main/Code")
 
 -- Mensagem inicial
 Rayfield:Notify({
-    Title = "Oryh Hub",
-    Content = "Carregando os scripts...",
-    Duration = 7
+    Title = "Anime Shadow",
+    Content = "Carregando scripts...",
+    Duration = 5
 })
