@@ -3,7 +3,7 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 -- Configuração da interface
 local Window = Rayfield:CreateWindow({
     Name = "Oryh Hub | Universal BR | Anime Realms", 
-    LoadingTitle = "Carregando Blox Fruits",
+    LoadingTitle = "Carregando Anime Realms",
     LoadingSubtitle = "Por favor, aguarde...",
     ConfigurationSaving = {
         Enabled = true,
