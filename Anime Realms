@@ -1,0 +1,59 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+-- Configuração da interface
+local Window = Rayfield:CreateWindow({
+    Name = "Oryh Hub | Universal BR | Anime Realms", 
+    LoadingTitle = "Carregando Blox Fruits",
+    LoadingSubtitle = "Por favor, aguarde...",
+    ConfigurationSaving = {
+        Enabled = true,
+        FolderName = "OryhHubConfigs", -- Pasta para salvar configurações
+        FileName = "UniversalScript"
+    },
+    Discord = {
+        Enabled = false,
+        Invite = "", -- Adicione um convite do Discord se necessário
+        RememberJoins = true
+    },
+    KeySystem = false -- Sistema de chave desativado
+})
+
+-- Função para criar botões que executam scripts
+local function AddScriptButton(tab, name, url)
+    tab:CreateButton({
+        Name = name,
+        Callback = function()
+            loadstring(game:HttpGet(url))()
+            Rayfield:Notify({
+                Title = "Oryh Hub",
+                Content = name .. " carregado com sucesso!",
+                Duration = 5
+            })
+        end
+    })
+end
+
+-- >[Início]<
+
+local InicioTab = Window:CreateTab("Início")
+
+AddScriptButton(InicioTab, "Fazium Hub", "https://raw.githubusercontent.com/ZaRdoOx/Fazium-files/main/Loader")
+AddScriptButton(InicioTab, "OMG Hub", "https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua")
+AddScriptButton(InicioTab, "Imp Hub", "https://raw.githubusercontent.com/alan11ago/Hub/refs/heads/main/ImpHub.lua")
+AddScriptButton(InicioTab, "NS Hub", "https://raw.githubusercontent.com/OhhMyGehlee/rea/refs/heads/main/lms")
+AddScriptButton(InicioTab, "Nameless Hub", "https://raw.githubusercontent.com/HenSeu87PofghYT/Anime-Realms/main/Nameless%20Scripts")
+AddScriptButton(InicioTab, "Makoto Hub", "https://api.luarmor.net/files/v3/loaders/1620430efcc9508d1c1689b4d218c7b7.lua")
+AddScriptButton(InicioTab, "L Hub", "https://raw.githubusercontent.com/LosHUB/L-HUBV3/main/L-HUBV3%22%29%29%28%29")
+AddScriptButton(InicioTab, "Legend HandlesYT Hub", "https://raw.githubusercontent.com/LHking123456/4iql1Ug5AYvTN/refs/heads/main/Anime")
+
+
+
+
+
+
+-- Mensagem inicial
+Rayfield:Notify({
+    Title = "Anime Realms",
+    Content = "Carregando scripts...",
+    Duration = 5
+})
