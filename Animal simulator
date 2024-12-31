@@ -52,7 +52,7 @@ AddScriptButton(AnimalTab, "Unfair Hub", "https://raw.githubusercontent.com/rbIx
 AddScriptButton(AnimalTab, "New Hub", "https://bmacaveli.link/newhub")
 AddScriptButton(AnimalTab, "HeimDalls GUI", "https://raw.githubusercontent.com/Golddeathninja03/rte/refs/heads/main/New%20Version")
 AddScriptButton(AnimalTab, "Animal Simulator - Crow Script", "https://raw.githubusercontent.com/CrowzScripts/AnimalSim/main/CrowOnTop")
-AddScriptButton(AnimalTab, "LT Fruits 1.9", "https://raw.githubusercontent.com/kokojoscripts/LT-FRUITS-UPDT/main/1.9")
+AddScriptButton(AnimalTab, "LT Fruits YKS", "https://raw.githubusercontent.com/kokojoscripts/LTYKS-SCRIPT/refs/heads/main/ANIMAL%20SIMULATOR")
 AddScriptButton(AnimalTab, "Nidizz Hub", "https://raw.githubusercontent.com/Nidizz/Roblox/main/Animal%20Simulator%20Script")
 AddScriptButton(AnimalTab, "Animal Simulator OP", "https://raw.githubusercontent.com/pickles20/Scriptzzz/main/Lua%20Script")
 AddScriptButton(AnimalTab, "Rblx Hub", "https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua")
