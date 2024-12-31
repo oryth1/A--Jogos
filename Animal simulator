@@ -34,7 +34,7 @@ local function AddScriptButton(tab, name, url)
 end
 
 -- Guia de Início
-local InicioTab = Window:CreateTab("Início")
+local InicioTab = Window:CreateTab("Animal Simulator Scripts")
 AddScriptButton(InicioTab, "Heim Dalls Hub", "https://raw.githubusercontent.com/AWdadwdwad2/net/refs/heads/main/h")
 AddScriptButton(InicioTab, "Red Hub", "https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/AnimalSimulator.lua")
 AddScriptButton(InicioTab, "Afk Hub", "https://raw.githubusercontent.com/NewWhitelistService/open-source/refs/heads/main/animal%20simulator%20afk%20farm.lua")
@@ -46,7 +46,7 @@ AddScriptButton(InicioTab, "Rip V2 Hub", "https://raw.githubusercontent.com/Casp
 AddScriptButton(InicioTab, "New Hub", "https://bmacaveli.link/newhub")
 
 -- Guia de Scripts para Animal Simulator
-local AnimalTab = Window:CreateTab("Animal Scripts")
+local AnimalTab = Window:CreateTab("Mais")
 AddScriptButton(AnimalTab, "Animal Simulator (AFK)", "https://raw.githubusercontent.com/NewWhitelistService/open-source/refs/heads/main/animal%20simulator%20afk%20farm.lua")
 AddScriptButton(AnimalTab, "Unfair Hub", "https://raw.githubusercontent.com/rbIxscriptsnet/unfair/main/rblxhub.lua")
 AddScriptButton(AnimalTab, "New Hub", "https://bmacaveli.link/newhub")
