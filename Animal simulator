@@ -33,35 +33,25 @@ local function AddScriptButton(tab, name, url)
     })
 end
 
--- Guia de Início
-local InicioTab = Window:CreateTab("Animal Simulator Scripts")
-AddScriptButton(InicioTab, "Heim Dalls Hub", "https://raw.githubusercontent.com/AWdadwdwad2/net/refs/heads/main/h")
-AddScriptButton(InicioTab, "Red Hub", "https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/AnimalSimulator.lua")
-AddScriptButton(InicioTab, "Afk Hub", "https://raw.githubusercontent.com/NewWhitelistService/open-source/refs/heads/main/animal%20simulator%20afk%20farm.lua")
-AddScriptButton(InicioTab, "Animal Simulator Hub", "https://pastejustit.com/raw/wf4zkzbblb")
-AddScriptButton(InicioTab, "Unfrair Hub", "https://raw.githubusercontent.com/rbIxscriptsnet/unfair/main/rblxhub.lua")
-AddScriptButton(InicioTab, "Animal Simulator Script Hub", "https://raw.githubusercontent.com/pickles20/Scriptzzz/main/Lua%20Script")
-AddScriptButton(InicioTab, "Marckk Hub", "https://raw.githubusercontent.com/Markklol/AnimalSimulator/refs/heads/main/One")
-AddScriptButton(InicioTab, "Rip V2 Hub", "https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/AnimalSimulator.lua")
-AddScriptButton(InicioTab, "New Hub", "https://bmacaveli.link/newhub")
-
 -- Guia de Scripts para Animal Simulator
-local AnimalTab = Window:CreateTab("Mais")
-AddScriptButton(AnimalTab, "Animal Simulator (AFK)", "https://raw.githubusercontent.com/NewWhitelistService/open-source/refs/heads/main/animal%20simulator%20afk%20farm.lua")
-AddScriptButton(AnimalTab, "Unfair Hub", "https://raw.githubusercontent.com/rbIxscriptsnet/unfair/main/rblxhub.lua")
-AddScriptButton(AnimalTab, "New Hub", "https://bmacaveli.link/newhub")
-AddScriptButton(AnimalTab, "HeimDalls GUI", "https://raw.githubusercontent.com/Golddeathninja03/rte/refs/heads/main/New%20Version")
-AddScriptButton(AnimalTab, "Animal Simulator - Crow Script", "https://raw.githubusercontent.com/CrowzScripts/AnimalSim/main/CrowOnTop")
-AddScriptButton(AnimalTab, "LT Fruits YKS", "https://raw.githubusercontent.com/kokojoscripts/LTYKS-SCRIPT/refs/heads/main/ANIMAL%20SIMULATOR")
-AddScriptButton(AnimalTab, "Nidizz Hub", "https://raw.githubusercontent.com/Nidizz/Roblox/main/Animal%20Simulator%20Script")
-AddScriptButton(AnimalTab, "Animal Simulator OP", "https://raw.githubusercontent.com/pickles20/Scriptzzz/main/Lua%20Script")
-AddScriptButton(AnimalTab, "Rblx Hub", "https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua")
-AddScriptButton(AnimalTab, "Dynamic Hub", "https://pastebin.com/raw/njum95dh")
-AddScriptButton(AnimalTab, "Free Hub", "https://raw.githubusercontent.com/FreeeScripts/FREEHub/main/Loader")
-AddScriptButton(AnimalTab, "Animal Simulator Hub", "https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/AnimalSimulator.lua")
-AddScriptButton(AnimalTab, "Animal Simulator", "https://github.com/KhSaeed90/Roblox/raw/workspace/5712833750")
-AddScriptButton(AnimalTab, "Ice Hub", "https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven")
-AddScriptButton(AnimalTab, "Animal Simulator Hub", "https://raw.githubusercontent.com/Markklol/Script/refs/heads/main/Animal%20Simulator%20Script2")
+local ScriptsTab = Window:CreateTab("Animal Simulator Scripts")
+
+-- Adicionando todos os scripts na mesma aba
+AddScriptButton(ScriptsTab, "Xethus Hub", "https://raw.githubusercontent.com/Hercules4328/Hidley/refs/heads/main/Premium")
+AddScriptButton(ScriptsTab, "Heim Dalls Hub", "https://raw.githubusercontent.com/AWdadwdwad2/net/refs/heads/main/h")
+AddScriptButton(ScriptsTab, "Red Hub", "https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/AnimalSimulator.lua")
+AddScriptButton(ScriptsTab, "Afk Hub", "https://raw.githubusercontent.com/NewWhitelistService/open-source/refs/heads/main/animal%20simulator%20afk%20farm.lua")
+AddScriptButton(ScriptsTab, "Animal Simulator Hub", "https://pastejustit.com/raw/wf4zkzbblb")
+AddScriptButton(ScriptsTab, "Unfair Hub", "https://raw.githubusercontent.com/rbIxscriptsnet/unfair/main/rblxhub.lua")
+AddScriptButton(ScriptsTab, "Animal Simulator Script Hub", "https://raw.githubusercontent.com/pickles20/Scriptzzz/main/Lua%20Script")
+AddScriptButton(ScriptsTab, "Marckk Hub", "https://raw.githubusercontent.com/Markklol/AnimalSimulator/refs/heads/main/One")
+AddScriptButton(ScriptsTab, "New Hub", "https://bmacaveli.link/newhub")
+AddScriptButton(ScriptsTab, "Animal Simulator - Crow Script", "https://raw.githubusercontent.com/CrowzScripts/AnimalSim/main/CrowOnTop")
+AddScriptButton(ScriptsTab, "LT Fruits YKS", "https://raw.githubusercontent.com/kokojoscripts/LTYKS-SCRIPT/refs/heads/main/ANIMAL%20SIMULATOR")
+AddScriptButton(ScriptsTab, "Nidizz Hub", "https://raw.githubusercontent.com/Nidizz/Roblox/main/Animal%20Simulator%20Script")
+AddScriptButton(ScriptsTab, "Dynamic Hub", "https://pastebin.com/raw/njum95dh")
+AddScriptButton(ScriptsTab, "Free Hub", "https://raw.githubusercontent.com/FreeeScripts/FREEHub/main/Loader")
+AddScriptButton(ScriptsTab, "Ice Hub", "https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven")
 
 -- Mensagem inicial
 Rayfield:Notify({
