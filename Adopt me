@@ -21,10 +21,9 @@ local AutoExecute = false
 local Scripts = {
 
     ["Prodigy X Hub"] = "https://raw.githubusercontent.com/ReQiuYTPL/hub/main/ReQiuYTPLHub.lua",
-    [""] = "URL DO SCRIPT",
-    ["Adopt me  hub"] = "https://raw.githubusercontent.com/boygamer1/AdoptMeWinter/refs/heads/main/MinigameFarm",
+    ["Adopt me Hub"] = "https://raw.githubusercontent.com/boygamer1/AdoptMeWinter/refs/heads/main/MinigameFarm",
     ["NXSIM Hub"] = "https://raw.githubusercontent.com/NxsimYT/tradescam/https/nxsimhub",
-    ["Tora Isme"] = "https://raw.githubusercontent.com/ToraScript/Script/main/AdoptMeWINTER",
+    ["Tora Isme Hub"] = "https://raw.githubusercontent.com/ToraScript/Script/main/AdoptMeWINTER",
     ["Ultra Hub"] = "https://raw.githubusercontent.com/Ultra-Scripts/AdoptmeScript/main/AdoptmeScript/RDJ11QD-adopt-me.lua",
     ["ReQiuYTPL Hub"] = "https://gitfront.io/r/ReQiuYTPL/wFUydaK74uGx/hub/raw/ReQiuYTPLHub.lua",
     ["Speed X Hub"] = "https://raw.githubusercontent.com/FreeeScripts/FREEHub/main/Loader",
